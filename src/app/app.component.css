@@ -1,0 +1,141 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.example-form-field {
+  width: 200px;
+}
+/* .example-card {
+  max-width: 1000px;
+  border:1px;
+} */
+.container{
+  position: relative;
+  width: 300px;
+  border:1px;
+
+    border: 1px solid #ccc; /* Establece un borde de 1 píxel sólido con un color gris claro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra a la tarjeta */
+margin-bottom: 10px;
+
+}
+.fila{
+  height: 24px;
+}
+
+
+input[disabled] {
+  padding-right: 10px;
+  position: absolute;
+  left: 130px;
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  margin: 0;
+  cursor: pointer;
+  width: 160px;
+}
+
+select[disabled] {
+  padding-right: 10px;
+  position: absolute;
+  width: fit-content;
+  left: -1px;
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: black;
+}
+select {
+  padding-right: 10px;
+  position: absolute;
+  left: -1px;
+  margin: 0;
+  top: 0px;
+}
+input.input-normal{
+  position: absolute;
+   width: 130px;
+  left: 135px;
+  margin-top:-20px;
+}
+
+button.link-button {
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 10px;
+  position: absolute;
+  right: 19px;
+  border: none;
+  font-size: 14px;
+  background-color: transparent;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #0077ff;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top:-20px;
+}
+button.normal-button {
+  position: absolute;
+  right: 9px;
+  background-color: #0077ff;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  border:0px;
+  font-size: 14px;
+  margin-top: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 44px;
+  height: 22px;
+  margin-top:-20px;
+}
+button.normal-button2 {
+  position: relative;
+  align-items: center;
+  background-color: #0077ff;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  border:0px;
+  font-size: 14px;
+  margin: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  height: 22px;
+}
+div.imagenes_visa {
+  position: absolute;
+  top:87px;
+  width: 30px;
+  background-image: url('../assets/images/visa.png');
+  background-size: cover;
+  background-position: center;
+  margin-left: 120px;
+
+}
+div.comboInterval{
+  position: absolute;
+  top:40px;
+  margin-left: 120px;
+
+}
